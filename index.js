@@ -21,6 +21,10 @@ console.log(name);
 //2. Number (số ): 1 235 , 
 //3. BOolean (dùng hoặc sai): true, false
 
-let name = "Tùng";
-let age = 22;
+let name1 = "Tùng";
+let age2 = 22;
 let isAdmin = true;
+
+alert("Xin chào JavaScript");
+
+document.getElementById("title").innerHTML = "Danh sách sản phẩm";
