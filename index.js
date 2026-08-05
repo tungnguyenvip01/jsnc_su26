@@ -27,4 +27,9 @@ let isAdmin = true;
 
 alert("Xin chào JavaScript");
 
-document.getElementById("title").innerHTML = "Danh sách sản phẩm";
+const h1 = document.getElementById("title1").innerHTML = "Danh sách sản phẩm";
+console.log(h1);
+const title = "Laptop - MObile";
+
+//'' dấu cạnh số 1
+h1.innerHTML= 'danh sách sản phẩm ${title}';
