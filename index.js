@@ -5,15 +5,13 @@ console.log("javascript");
 
 let name = "boy";
 const age = 22;
-let monney = 100;
-let isStuding =  true;
-
-money = 50;
-
+let money = 100;
+let isStuding = true;
 
 const yearTung = 2004;
 // yearTung = 2004;
 
+// Đã sửa name1 -> name (vì biến name được khai báo ở dòng 6)
 console.log(name);
 
 //kieu du lieu
@@ -27,6 +25,7 @@ let isAdmin = true;
 
 alert("Xin chào JavaScript");
 
+// Lưu ý: Đảm bảo bên file index.html đã có các thẻ mang id="title1", id="11", id="1"
 const h1 = document.getElementById("title1").innerHTML = "Danh sách sản phẩm";
 console.log(h1);
 const th1 = document.getElementById("11").innerHTML = "1";
@@ -34,16 +33,10 @@ console.log(th1);
 const th2 = document.getElementById("1").innerHTML = "Tùng";
 console.log(th2);
 
-
-
-
-
 const name22 = "Tùng";
 const age22 = 30;
 
 console.log(`${name22} - ${age22}`);
-
-
 
 const book = {
   id: 1,
@@ -51,6 +44,3 @@ const book = {
   price: 200000,
 };
 console.log(book.name);
-
-
-//'' dấu cạnh số 1
