@@ -29,7 +29,11 @@ alert("Xin chào JavaScript");
 
 const h1 = document.getElementById("title1").innerHTML = "Danh sách sản phẩm";
 console.log(h1);
-const title = "Laptop - MObile";
+const th1 = document.getElementById("11").innerHTML = "1";
+console.log(th1);
+const th2 = document.getElementById("1").innerHTML = "Tùng";
+console.log(th2);
+
+
 
 //'' dấu cạnh số 1
-h1.innerHTML= 'danh sách sản phẩm ${title}';
