@@ -36,4 +36,21 @@ console.log(th2);
 
 
 
+
+
+const name22 = "Tùng";
+const age22 = 30;
+
+console.log(`${name22} - ${age22}`);
+
+
+
+const book = {
+  id: 1,
+  name: "JavaScript Cơ Bản",
+  price: 200000,
+};
+console.log(book.name);
+
+
 //'' dấu cạnh số 1
