@@ -1,46 +1,18 @@
-console.log("javascript");
-//$ php/
+const tbody = document.getElementById("student");
+console.log(tbody);
 
-//let const
-
-let name = "boy";
-const age = 22;
-let money = 100;
-let isStuding = true;
-
-const yearTung = 2004;
-// yearTung = 2004;
-
-// Đã sửa name1 -> name (vì biến name được khai báo ở dòng 6)
-console.log(name);
-
-//kieu du lieu
-//1. string(chuỗi) : "tung", "js", "hay"
-//2. Number (số ): 1 235 , 
-//3. BOolean (dùng hoặc sai): true, false
-
-let name1 = "Tùng";
-let age2 = 22;
-let isAdmin = true;
-
-alert("Xin chào JavaScript");
-
-// Lưu ý: Đảm bảo bên file index.html đã có các thẻ mang id="title1", id="11", id="1"
-const h1 = document.getElementById("title1").innerHTML = "Danh sách sản phẩm";
-console.log(h1);
-const th1 = document.getElementById("11").innerHTML = "1";
-console.log(th1);
-const th2 = document.getElementById("1").innerHTML = "Tùng";
-console.log(th2);
-
-const name22 = "Tùng";
-const age22 = 30;
-
-console.log(`${name22} - ${age22}`);
-
-const book = {
-  id: 1,
-  name: "JavaScript Cơ Bản",
-  price: 200000,
+const student = {
+  name: "Nguyễn Thanh Tùng",
+  age: 20,
+  email: "boy@gmail.com",
+  major: "CNTT",
 };
-console.log(book.name);
+
+document.getElementById("student").innerHTML = `
+<tr>
+  <td>${student.age}</td>
+  <td>${student.name}</td>
+  <td>${student.email}</td>
+  <td>${student.major}</td>
+</tr>
+`;
