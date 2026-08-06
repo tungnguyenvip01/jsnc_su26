@@ -14,5 +14,5 @@ document.getElementById("student").innerHTML = `
   <td>${student.name}</td>
   <td>${student.email}</td>
   <td>${student.major}</td>
-</tr>
+ </tr>
 `;
