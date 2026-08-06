@@ -16,3 +16,20 @@ document.getElementById("student").innerHTML = `
   <td>${student.major}</td>
  </tr>
 `;
+
+const numbers = [1, 2, 3, 4];
+const names = ["hoadv", "tungnt", 1, true];
+const students = [
+  {
+    id: 1,
+    name: "hoadv",
+  },
+  {
+    id: 2,
+    name: "tungnt",
+  },
+];
+
+students.map((item)=>{
+console.log(item.name);
+})
