@@ -1,35 +1,16 @@
-const tbody = document.getElementById("student");
-console.log(tbody);
-
-const student = {
-  name: "Nguyễn Thanh Tùng",
-  age: 20,
-  email: "boy@gmail.com",
-  major: "CNTT",
-};
-
-document.getElementById("student").innerHTML = `
-<tr>
-  <td>${student.age}</td>
-  <td>${student.name}</td>
-  <td>${student.email}</td>
-  <td>${student.major}</td>
- </tr>
-`;
-
-const numbers = [1, 2, 3, 4];
-const names = ["hoadv", "tungnt", 1, true];
-const students = [
-  {
-    id: 1,
-    name: "hoadv",
-  },
-  {
-    id: 2,
-    name: "tungnt",
-  },
-];
-
-students.map((item)=>{
-console.log(item.name);
-})
+axios.get("http://localhost:3000/products").then((res) => {
+  console.log(res.data);
+  const html = res.data
+    .map((sinhvien) => {
+      return `
+    <tr>
+    <td>${sinhvien.id}</td>
+    <td>${sinhvien.name}</td>
+    <td>${sinhvien.price}</td>
+    <td>${sinhvien.email}</td>
+    </tr>
+    `;
+    })
+    .join("");
+  document.getElementById("student-list").innerHTML = html;
+});

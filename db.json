@@ -1,16 +1,103 @@
 {
-  "books": [
+  "products": [
     {
-      "id": 1,
-      "title": "Nhà giả kim",
-      "year": 2000,
-      "cover": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg"
+      "id": "1",
+      "name": "Tai nghe Bluetooth Wireless Over-Ear",
+      "slug": "tai-nghe-bluetooth-wireless-over-ear",
+      "price": 1250000,
+      "originalPrice": 1500000,
+      "discount": 17,
+      "categoryId": "audio",
+      "brand": "SoundPro",
+      "image": "https://via.placeholder.com/600x600?text=Tai+Nghe",
+      "description": "Tai nghe chống ồn chủ động, thời lượng pin lên đến 30 giờ liên tục.",
+      "stock": 45,
+      "rating": 4.8,
+      "isFeatured": true,
+      "createdAt": "2026-01-15T08:30:00Z"
     },
     {
-      "id": 2,
-      "title": "Tôi thấy hoa vàng trên cỏ xanh",
-      "year": 2000,
-      "cover": "https://cdn0.fahasa.com/media/catalog/product/n/n/nna-hvtcx.jpg"
+      "id": "2",
+      "name": "Chuột Không Dây Ergonomic RGB",
+      "slug": "chuot-khong-day-ergonomic-rgb",
+      "price": 450000,
+      "originalPrice": 550000,
+      "discount": 18,
+      "categoryId": "accessories",
+      "brand": "TechGrip",
+      "image": "https://via.placeholder.com/600x600?text=Chuot+Khong+Day",
+      "description": "Thiết kế thái công học giúp chống mỏi tay, cảm biến quang học 3200 DPI.",
+      "stock": 120,
+      "rating": 4.5,
+      "isFeatured": false,
+      "createdAt": "2026-02-01T10:15:00Z"
+    },
+    {
+      "id": "3",
+      "name": "Bàn Phím Cơ Cơ Học 87 Phím (Tenkeyless)",
+      "slug": "ban-phim-co-87-phim",
+      "price": 890000,
+      "originalPrice": 1100000,
+      "discount": 19,
+      "categoryId": "accessories",
+      "brand": "KeyPro",
+      "image": "https://via.placeholder.com/600x600?text=Ban+Phim+Co",
+      "description": "Switch cơ học Red Switch gõ êm, đèn LED RGB 18 chế độ chiếu sáng.",
+      "stock": 30,
+      "rating": 4.9,
+      "isFeatured": true,
+      "createdAt": "2026-02-10T14:20:00Z"
+    },
+    {
+      "id": "4",
+      "name": "Đồng Hồ Thông Minh Sport Tracker",
+      "slug": "dong-ho-thong-minh-sport-tracker",
+      "price": 2100000,
+      "originalPrice": 2500000,
+      "discount": 16,
+      "categoryId": "wearables",
+      "brand": "FitLife",
+      "image": "https://via.placeholder.com/600x600?text=Dong+Ho+Thong+Minh",
+      "description": "Đo nhịp tim, nồng độ SpO2, theo dõi 100+ chế độ tập luyện thể thao.",
+      "stock": 15,
+      "rating": 4.6,
+      "isFeatured": true,
+      "createdAt": "2026-03-05T09:00:00Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "audio",
+      "name": "Thiết bị Âm thanh",
+      "slug": "thiet-bi-am-thanh"
+    },
+    {
+      "id": "accessories",
+      "name": "Phụ kiện Phím Chuột",
+      "slug": "phu-kien-phim-chuot"
+    },
+    {
+      "id": "wearables",
+      "name": "Thiết bị Đeo Thông minh",
+      "slug": "thiet-bi-deo-thong-minh"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r101",
+      "productId": "1",
+      "userName": "Nguyễn Văn A",
+      "rating": 5,
+      "comment": "Âm thanh hay, chống ồn rất mượt trong tầm giá.",
+      "createdAt": "2026-02-12T11:00:00Z"
+    },
+    {
+      "id": "r102",
+      "productId": "3",
+      "userName": "Trần Thị B",
+      "rating": 5,
+      "comment": "Bàn phím gõ rất đã tay, LED đẹp.",
+      "createdAt": "2026-02-15T16:45:00Z"
     }
   ]
 }
