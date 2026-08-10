@@ -1,22 +1,28 @@
 {
-  "students": [
+  "books": [
     {
       "id": 1,
-      "name": "Tùng NÚi",
-      "age": 22,
-      "email": "nui@gmail.com"
+      "title": "Lập trình JavaScript cơ bản",
+      "author": "Nguyễn Văn An",
+      "price": 150000
     },
     {
       "id": 2,
-      "name": "Em yêu",
-      "age": 20,
-      "email": "girl@gmail.com"
+      "title": "HTML & CSS cho người mới",
+      "author": "Trần Văn Bình",
+      "price": 120000
     },
     {
       "id": 3,
-      "name": "Nguyễn Thanh Tùng",
-      "age": 22,
-      "email": "boy@gmail.com"
+      "title": "Học React từ cơ bản",
+      "author": "Lê Minh Tuấn",
+      "price": 180000
+    },
+    {
+      "id": 4,
+      "title": "Lập trình Web với Node.js",
+      "author": "Phạm Văn Nam",
+      "price": 200000
     }
   ]
 }
