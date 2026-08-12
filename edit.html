@@ -20,58 +20,39 @@
         <div class="hidden md:flex items-center space-x-6"></div>
       </div>
     </nav>
+    <div class="max-w-6xl mx-auto mt-10 px-4 text-center">
+      <h1 class="text-2xl font-semibold mb-6">Cập nhật</h1>
 
-    <div class="max-w-xl mx-auto mt-10 px-4">
-      <h1 class="text-2xl font-semibold mb-6 text-center">Thêm mới sinh viên</h1>
-
-      <!-- 1. Thêm id="form-add" vào form -->
       <form id="form-add" class="space-y-6">
-        <!-- 2. Thêm input Name -->
+        <!-- Text input -->
         <div>
-          <label for="name" class="block font-medium mb-1"> Tên sinh viên </label>
+          <label for="title" class="block font-medium mb-1"> Title </label>
           <input
-            type="text"
             id="name"
-            name="name"
-            required
+            type="text"
+            name="title"
             class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
-
-        <!-- 3. Thêm input Age -->
         <div>
-          <label for="age" class="block font-medium mb-1"> Tuổi </label>
+          <label for="title" class="block font-medium mb-1"> age </label>
           <input
-            type="number"
             id="age"
-            name="age"
-            required
+            type="text"
+            name="title"
             class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
-        <div>
-          <label for="email" class="block font-medium mb-1"> email </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required
-            class="w-full border rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </div>
-
-        <!-- Submit Button -->
+        <!-- Buttons -->
         <button
           type="submit"
-          class="w-full px-5 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition"
+          class="px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
         >
           Submit
         </button>
       </form>
     </div>
-
-    <!-- Nhúng thư viện Axios & Script xử lý -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.7/axios.min.js"></script>
-    <script src="add.js"></script>
+    <script src="edit.js"></script>
   </body>
 </html>

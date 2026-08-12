@@ -1,16 +1,22 @@
 {
   "students": [
     {
-      "id": 1,
-      "name": "Nguyễn Văn A",
-      "age": 20,
-      "email": "a@gmail.com"
+      "name": "tungsu",
+      "age": "11",
+      "email": "tungnt@gmail.com",
+      "id": 5
     },
     {
       "name": "tungsu",
       "age": "11",
-      "email": "tungnguyenvip01@gmail.com",
-      "id": 2
+      "email": "tungnt@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "tungsu",
+      "age": "11",
+      "email": "tungnt@gmail.com",
+      "id": 7
     }
   ]
 }
