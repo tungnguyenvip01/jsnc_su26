@@ -34,55 +34,18 @@
       "teacher": "Hoàng Minh Đức",
       "price": 600000,
       "category": "Backend"
+    }
+  ],
+  "users": [
+    {
+      "email": "tungnguyenvip01@gmail.com",
+      "password": "$2a$10$KbiXNk862JASaIZpwtSH/OMws8YQLp9XJO/latm28xtuZAgYHxHTe",
+      "id": 1
     },
     {
-      "name": "bakha2",
-      "teacher": "hoa",
-      "price": "2222",
-      "category": "Frontend",
-      "id": 6
-    },
-    {
-      "name": "anime boku no pi",
-      "teacher": "hoa",
-      "price": "1111",
-      "category": "Frontend",
-      "id": 7
-    },
-    {
-      "name": "bakha",
-      "teacher": "huan hoa hong",
-      "price": 233,
-      "category": "Backend",
-      "id": 8
-    },
-    {
-      "name": "gưg",
-      "teacher": "gưg",
-      "price": 131,
-      "category": "Frontend",
-      "id": 9
-    },
-    {
-      "name": "tungsu313",
-      "teacher": "hoa1",
-      "price": "-444",
-      "category": "Backend",
-      "id": 10
-    },
-    {
-      "name": "anime boku no pi",
-      "teacher": "hoa",
-      "price": 131,
-      "category": "Backend",
-      "id": 11
-    },
-    {
-      "name": "tungsu",
-      "teacher": "djdqd",
-      "price": 131313,
-      "category": "Frontend",
-      "id": 12
+      "email": "tungnguyenvi1@gmail.com",
+      "password": "$2a$10$hmMBjOLRKTfQMHt9JvBnyuHkgUwm.rPuGWxrUg/Bv3LPX8YUbyhU.",
+      "id": 2
     }
   ]
 }
