@@ -1,46 +1,88 @@
 {
-  "students": [
+  "courses": [
     {
-      "name": "tungsu",
-      "age": "11",
-      "email": "tungnt@gmail.com",
-      "id": 5
+      "name": "JavaScript Cơ Bản",
+      "teacher": "Nguyễn Văn An",
+      "price": "600000",
+      "category": "Frontend",
+      "id": 1
     },
     {
-      "name": "tungsu",
-      "age": "11",
-      "email": "tungnt@gmail.com",
+      "id": 2,
+      "name": "Node.js Cơ Bản",
+      "teacher": "Trần Văn Bình",
+      "price": 650000,
+      "category": "Backend"
+    },
+    {
+      "id": 3,
+      "name": "React Cơ Bản",
+      "teacher": "Lê Minh Tuấn",
+      "price": 700000,
+      "category": "Frontend"
+    },
+    {
+      "id": 4,
+      "name": "Lập trình Mobile",
+      "teacher": "Phạm Văn Nam",
+      "price": 800000,
+      "category": "Mobile"
+    },
+    {
+      "id": 5,
+      "name": "PHP Laravel Cơ Bản",
+      "teacher": "Hoàng Minh Đức",
+      "price": 600000,
+      "category": "Backend"
+    },
+    {
+      "name": "bakha2",
+      "teacher": "hoa",
+      "price": "2222",
+      "category": "Frontend",
       "id": 6
     },
     {
-      "name": "tungsu",
-      "age": "11",
-      "email": "tungnt@gmail.com",
+      "name": "anime boku no pi",
+      "teacher": "hoa",
+      "price": "1111",
+      "category": "Frontend",
       "id": 7
     },
     {
-      "name": "tungsu",
-      "age": "11",
-      "email": "tungnt@gmail.com",
+      "name": "bakha",
+      "teacher": "huan hoa hong",
+      "price": 233,
+      "category": "Backend",
       "id": 8
     },
     {
-      "name": "tungsu",
-      "age": "11",
-      "email": "tungnt@gmail.com",
+      "name": "gưg",
+      "teacher": "gưg",
+      "price": 131,
+      "category": "Frontend",
       "id": 9
     },
     {
-      "name": "tungsu",
-      "age": "11",
-      "email": "tungnt@gmail.com",
+      "name": "tungsu313",
+      "teacher": "hoa1",
+      "price": "-444",
+      "category": "Backend",
       "id": 10
     },
     {
-      "name": "tungsu",
-      "age": "11",
-      "email": "tungnt@gmail.com",
+      "name": "anime boku no pi",
+      "teacher": "hoa",
+      "price": 131,
+      "category": "Backend",
       "id": 11
+    },
+    {
+      "name": "tungsu",
+      "teacher": "djdqd",
+      "price": 131313,
+      "category": "Frontend",
+      "id": 12
     }
   ]
 }
