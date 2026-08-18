@@ -39,13 +39,23 @@
   "users": [
     {
       "email": "tungnguyenvip01@gmail.com",
-      "password": "$2a$10$KbiXNk862JASaIZpwtSH/OMws8YQLp9XJO/latm28xtuZAgYHxHTe",
+      "password": "$2a$10$JjX2vVAJ5mH024Jmk8.kGeHTR6GwZMb.3xcCwbSiDu7.9pJiqUbE.",
       "id": 1
     },
     {
-      "email": "tungnguyenvi1@gmail.com",
-      "password": "$2a$10$hmMBjOLRKTfQMHt9JvBnyuHkgUwm.rPuGWxrUg/Bv3LPX8YUbyhU.",
+      "email": "tungnguyenvip1@gmail.com",
+      "password": "$2a$10$Cqk64zeWHyFpTlZ9eokC6uuouShVlyw2i3osGGSXGs5M3aURMhobG",
       "id": 2
+    },
+    {
+      "email": "tungnguyen2@gmail.com",
+      "password": "$2a$10$E/tu2IgXLrc3PS2FXVEm.Os.ECKIBi8Ra9fdkk7DQD1WLfcKNor5S",
+      "id": 3
+    },
+    {
+      "email": "tungnguyenvip10@gmail.com",
+      "password": "$2a$10$sPXCmDCtEFEZ8x9x1NzPn.E/0xxxjyM78xxKUmsoD0O1A0O.ACptu",
+      "id": 4
     }
   ]
 }
